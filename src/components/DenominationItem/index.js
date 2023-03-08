@@ -1,6 +1,8 @@
 // Write your code here
 import {Component} from 'react'
 
+import './index.css'
+
 class DenominationItem extends Component {
   onClickChangeValue = () => {
     const {denominations, getDenominationValue} = this.props
