@@ -1,0 +1,84 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.sub-app-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #ffffff;
+}
+
+.first-char {
+  background-color: #c7d2fe;
+  padding: 20px;
+  border-radius: 260px;
+  margin-right: 20px;
+  color: #382f5a;
+}
+
+.first-heading {
+  color: #ffffff;
+}
+
+.balance-sheet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.balance-heading {
+  color: #585076;
+}
+
+.name-balance-heading {
+  color: #ffffff;
+}
+
+.para-balance-sheet {
+  color: #585076;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+.withdraw-heading {
+  color: #ffffff;
+}
+
+.withdraw-para {
+  color: #585076;
+}
+
+.withdraw-unordered-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
